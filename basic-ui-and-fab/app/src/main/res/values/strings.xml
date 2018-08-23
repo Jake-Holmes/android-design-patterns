@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Excercise1</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="author_text">Jake Holmes - Excercise 1</string>
+    <string name="fname_hint">First Name</string>
+    <string name="lname_hint">Last Name</string>
+    <string name="age_hint">Age</string>
+    <string name="male_btn">Male</string>
+    <string name="female_btn">Female</string>
+</resources>

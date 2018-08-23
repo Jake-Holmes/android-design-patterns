@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Exercise2</string>
+    <string name="main_heading">Exercise 2 Going MAD!</string>
+    <string name="your_name">Your name</string>
+    <string name="your_email">Your email</string>
+    <string name="your_phone">Your phone</string>
+    <string name="submit_btn">Submit</string>
+    <string name="clear_btn">Clear All</string>
+    <string name="exit_btn">Exit</string>
+    <string name="submit_snackbar_text">Submit button clicked!</string>
+    <string name="agree_checkbox_text">I Agree</string>
+    <string name="second_activity_title">Screen 2</string>
+    <string name="default_phone_text">Home</string>
+    <string name="default_phone_type">Home</string>
+    <string name="agree_text">I Agree</string>
+    <string name="disagree_text">I Disagree</string>
+    <string-array name="phone_types_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+    </string-array>
+</resources>

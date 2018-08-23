@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exercise 3</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="swap_btn">Swap</string>
+    <string name="rotate_btn">Rotate</string>
+    <string name="email_focus">Email has focus</string>
+    <string name="email_lost_focus">Email lost focus</string>
+</resources>

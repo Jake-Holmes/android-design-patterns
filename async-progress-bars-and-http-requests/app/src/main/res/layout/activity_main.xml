@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/loading_view" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/standard_padding"
+            android:background="@color/white"
+            android:padding="@dimen/small_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:paddingLeft="@dimen/medium_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/joke_length" />
+
+            <Spinner
+                android:id="@+id/joke_length_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/medium_padding"
+            android:layout_marginRight="@dimen/medium_padding"
+            android:padding="@dimen/standard_padding"
+            android:background="@drawable/rounded_rectangle">
+
+            <ScrollView
+                android:id="@+id/joke_view"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/joke_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/extra_padding"
+                    android:gravity="center"
+                    android:text="@string/default_joke_text"
+                    android:textSize="@dimen/joke_text" />
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/standard_padding">
+
+            <Button
+                android:id="@+id/one_joke_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/one_joke_btn" />
+
+            <Button
+                android:id="@+id/three_jokes_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/three_jokes_btn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exercise 4</string>
+    <string name="one_joke_btn">1 JOKE</string>
+    <string name="three_jokes_btn">3 JOKES</string>
+    <string name="default_joke_text">Download some jokes with the buttons below</string>
+    <string name="single_dl_failed">Failed to download joke</string>
+    <string name="multiple_dl_failed">Failed to download jokes</string>
+    <string name="downloading_joke">Downloading joke…</string>
+    <string name="joke_length">Joke length:</string>
+    <string name="new_joke_selected">%s jokes selected</string>
+    <string name="downloading_joke_d">Downloading joke %d…</string>
+    <string name="percentage">%d%%</string>
+    <string name="num_out_of_num">%d/%d</string>
+    <string-array name="joke_lengths_array">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+</resources>

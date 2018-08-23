@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondaryActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/second_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/header_margin"
+            android:text="@string/second_activity_title" />
+
+        <TextView
+            android:id="@+id/name_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/header_margin"
+            android:text="@string/your_name" />
+
+        <TextView
+            android:id="@+id/phone_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/header_margin"
+            android:text="@string/your_phone" />
+
+        <TextView
+            android:id="@+id/phone_type_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/header_margin"
+            android:text="@string/default_phone_type" />
+
+        <TextView
+            android:id="@+id/email_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/header_margin"
+            android:text="@string/your_email" />
+
+        <CheckBox
+            android:id="@+id/agree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agree_checkbox_text"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/secondary_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/button_margin"
+        android:text="@string/submit_btn" />
+
+
+</LinearLayout>

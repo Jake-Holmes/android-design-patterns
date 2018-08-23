@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/form_data"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/first_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fname_hint"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/last_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lname_hint"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/age_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_hint"
+            android:inputType="number" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/male_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male_btn" />
+
+            <RadioButton
+                android:id="@+id/female_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female_btn" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/droid_image"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/form_data"
+        android:src="@drawable/droid" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form_data"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit" />
+
+</RelativeLayout>
