@@ -1,2 +1,2 @@
 # android-design-patterns
-Collection of reference design patterns for various android concepts written in Java.
+A collection of android applications implementing various reference design patterns and concepts written in Java.
